@@ -702,7 +702,7 @@ export const products: Product[] = [
     id: "pb-allinone",
     slug: "all-in-one-power-bank-10000",
     title: "All-in-One Power Bank 10,000mAh",
-    brand: "Dee_gadgets",
+    brand: "Dee Gadgets",
     description:
       "Pocket power bank with built-in USB-C and Lightning cables — no extra cords needed. Charge two devices at once.",
     images: [IMG.pbCables],
@@ -897,7 +897,7 @@ export const products: Product[] = [
     specs: { storage: "128GB", ram: "6GB", has5G: true, batteryMah: 3279, screenInches: 6.1 },
     highlights: ["85%+ battery health", "72-point inspection", "90-day store warranty", "Grade A cosmetic"],
     inBox: ["iPhone 14", "USB-C to Lightning cable", "Certification card"],
-    warranty: "90-day Dee_gadgets Hub warranty + optional extended cover",
+    warranty: "90-day Dee Gadgets Hub warranty + optional extended cover",
     fullSpecs: [
       { label: "Condition", value: "Certified refurbished" },
       { label: "Storage", value: "128GB" },
@@ -928,7 +928,7 @@ export const products: Product[] = [
     specs: { storage: "128GB", ram: "8GB", has5G: true, batteryMah: 4000, screenInches: 6.2 },
     highlights: ["85%+ battery health", "72-point inspection", "90-day store warranty", "Grade A cosmetic"],
     inBox: ["Galaxy S21", "USB-C cable", "Certification card"],
-    warranty: "90-day Dee_gadgets Hub warranty + optional extended cover",
+    warranty: "90-day Dee Gadgets Hub warranty + optional extended cover",
     fullSpecs: [
       { label: "Condition", value: "Certified refurbished" },
       { label: "Storage", value: "128GB" },
@@ -957,7 +957,7 @@ export const products: Product[] = [
     specs: { storage: "256GB", ram: "8GB", has5G: true, batteryMah: 3274, screenInches: 6.1 },
     highlights: ["88%+ battery health", "72-point inspection", "90-day store warranty", "Grade A cosmetic"],
     inBox: ["iPhone 15 Pro", "USB-C cable", "Certification card"],
-    warranty: "90-day Dee_gadgets Hub warranty + optional extended cover",
+    warranty: "90-day Dee Gadgets Hub warranty + optional extended cover",
     fullSpecs: [
       { label: "Condition", value: "Certified refurbished" },
       { label: "Storage", value: "256GB" },

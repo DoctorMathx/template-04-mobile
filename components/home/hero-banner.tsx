@@ -18,7 +18,7 @@ export function HeroBanner() {
 
       <div className="relative z-10 shell pt-24 sm:pt-28 text-center">
         <p className="reveal text-[15px] sm:text-[19px] font-medium tracking-wide text-white/70">
-          Dee_gadgets Hub
+          Dee Gadgets Hub
         </p>
         <h1
           className="reveal headline-xl mt-2 text-white text-[clamp(44px,9vw,108px)]"
