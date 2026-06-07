@@ -132,7 +132,7 @@ export const featuredDeals: Deal[] = [
 ];
 
 export const storeInfo = {
-  name: "Circuit Mobile",
+  name: "Dee_gadgets Hub",
   tagline: "Genuine phones. Trusted service.",
   region: "Delivering across Nigeria, Ghana & Kenya",
   phone: "+234 800 000 0000",
