@@ -5,19 +5,38 @@ import { UtilityBar } from "@/components/layout/utility-bar";
 import { MainHeader } from "@/components/layout/main-header";
 import { CategoryNav } from "@/components/layout/category-nav";
 import { SiteFooter } from "@/components/layout/site-footer";
-import { storeInfo } from "@/mock/navigation";
+
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://template-04-mobile.vercel.app";
+const title = "Dee Gadgets Hub — Phones, Accessories & Gadgets";
+const description = "Premium mobile phones, accessories, and gadgets with genuine products, warranty support, and fast delivery across Nigeria, Ghana & Kenya.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
-    default: `${storeInfo.name} — Phones & Gadgets`,
-    template: `%s | ${storeInfo.name}`,
+    default: title,
+    template: "%s | Dee Gadgets Hub",
   },
-  description:
-    "Premium mobile phones, accessories, and gadgets with genuine products, warranty support, and fast delivery across Africa.",
+  description,
   openGraph: {
-    title: `${storeInfo.name} — Phones & Gadgets`,
-    description: "Genuine smartphones and accessories for African markets.",
     type: "website",
+    url: siteUrl,
+    siteName: "Dee Gadgets Hub",
+    title,
+    description,
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Dee Gadgets Hub — Phones, Accessories & Gadgets",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/opengraph-image"],
   },
 };
 
